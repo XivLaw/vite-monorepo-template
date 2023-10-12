@@ -5,5 +5,5 @@ console.log(aaa)
 export type aaa = {
   text: 666
 }
-
+alert()
 export const test: string = '666'

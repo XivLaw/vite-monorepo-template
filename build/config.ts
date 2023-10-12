@@ -15,6 +15,7 @@ export const baseConfig = defineConfig({
 
 export const createRollupOptions = ( name?: string ) => {
   return {
+    input: resolve(__dirname, `../packages/${name}/src/index.ts`),
     externals: ['vue'],
     plugins: [
       // {
@@ -34,6 +35,7 @@ export const createRollupOptions = ( name?: string ) => {
 
 export const createBuildOptions = ( name?: string ) : BuildOptions => {
   return {
+    
     lib: {
       entry: resolve(__dirname, `../packages/${name}/src/index.ts`),
       name: `${libraryName + name}`,

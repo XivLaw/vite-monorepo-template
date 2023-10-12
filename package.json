@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
+    "dev": "pnpm run -C docs dev",
     "build": "vue-tsc && vite --config build/index.ts"
   },
   "dependencies": {
@@ -12,7 +13,7 @@
     "@rollup/plugin-typescript": "^11.1.5",
     "@types/node": "^20.8.4",
     "@typescript-eslint/eslint-plugin": "^6.7.5",
-    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue": "^4.4.0",
     "@vitejs/plugin-vue-jsx": "^3.0.2",
     "@vuedx/typecheck": "^0.7.6",
     "eslint-config-prettier": "^9.0.0",
@@ -20,10 +21,10 @@
     "eslint-plugin-vue": "^9.17.0",
     "rollup-plugin-node-externals": "^6.1.2",
     "ts-node": "^10.9.1",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.11",
     "vite-plugin-eslint": "^1.8.1",
     "vue-eslint-parser": "^9.3.2",
-    "vue-tsc": "^1.8.5"
+    "vue-tsc": "^1.8.19"
   }
 }

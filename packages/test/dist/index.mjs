@@ -1717,6 +1717,7 @@ function Xr(e, t) {
 const Zr = /* @__PURE__ */ Yr(Qr, [["render", Xr], ["__file", "/Users/xivlaw/Documents/git/vite-monorepo-template/packages/test/src/test.vue"]]);
 console.log(Nr);
 console.log(Zr);
+alert();
 const es = "666";
 export {
   es as test
